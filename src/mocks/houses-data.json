@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "dateCreated": "2021-12-23T09:23:42.079Z",
+    "house": {
+      "price": 800000,
+      "sqft": 1000,
+      "address": {
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "stateAbbv": "NV",
+        "street": "Evans 333",
+        "zipCode": "98988"
+      }
+    },
+    "owner": {
+      "firstName": "Evan",
+      "lastName": "Cabong",
+      "id": "222234",
+      "phoneNumber": "7023334444"
+    }
+  },
+  {
+    "id": "2",
+    "dateCreated": "2021-12-25T10:23:42.079Z",
+    "house": {
+      "price": 700000,
+      "sqft": 900,
+      "address": {
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "stateAbbv": "NV",
+        "street": "Huffins 555",
+        "zipCode": "98988"
+      }
+    },
+    "owner": {
+      "firstName": "James",
+      "lastName": "Jones",
+      "id": "334556",
+      "phoneNumber": "7024443233"
+    }
+  }
+]

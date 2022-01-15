@@ -1,0 +1,27 @@
+.house-list {
+  &__card {
+    width: 50%;
+    margin: 40px auto;
+    border: 1px solid @mainColor;
+    padding: 20px;
+    border-radius: @borderRadius;
+    cursor: pointer;
+    p {
+      margin-bottom: 10px;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+    &:hover {
+      border: 1px solid @hoverColor;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .house-list {
+    &__card {
+      width: 95%;
+    }
+  }
+}
