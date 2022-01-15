@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test sub test 1 1`] = `
+<div>
+  <h1>
+    Product List1
+  </h1>
+</div>
+`;
