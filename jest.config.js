@@ -12,6 +12,7 @@ module.exports = {
     '@src/(.*)': '<rootDir>/src/$1',
     '@styles/(.*)': '<rootDir>/styles/$1',
     '@utils/(.*)': '<rootDir>/src/utils/$1',
+    '@molecules/(.*)': '<rootDir>/src/molecules/$1',
   },
   coverageDirectory: 'coverage',
   collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}'],

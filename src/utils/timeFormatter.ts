@@ -1,4 +1,5 @@
 export const timeFormatter = (value: string) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let valueFormatter: any = value.split('T');
   valueFormatter = valueFormatter[0];
   valueFormatter = valueFormatter.split('-');

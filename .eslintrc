@@ -9,8 +9,10 @@
     "prettier"
   ],
   "rules": {
-    "@typescript-eslint/no-unused-vars": "error",
-    "import/no-extraneous-dependencies": "off"
+    "@typescript-eslint/no-unused-vars": "warn",
+    "import/no-extraneous-dependencies": "off",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "react-hooks/rules-of-hooks": "off"
   },
   "env": { "browser": true, "es2021": true, "jest": true },
   "settings": {
