@@ -1,14 +1,20 @@
 .home {
   display: flex;
   height: 100vh;
-
   &__image {
     width: 70%;
     position: relative;
   }
-
   &__form {
-    background-color: green;
     width: 30%;
+  }
+}
+
+@media (max-width: 800px) {
+  .home {
+    display: block;
+    &__form {
+      width: 100%;
+    }
   }
 }

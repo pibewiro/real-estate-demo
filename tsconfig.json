@@ -20,7 +20,8 @@
       "@styles/*": ["src/styles/*"],
       "@mocks/*": ["src/mocks/*"],
       "@services/*": ["src/services/*"],
-      "@utils/*": ["src/utils/*"]
+      "@utils/*": ["src/utils/*"],
+      "@molecules/*": ["src/molecules/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
