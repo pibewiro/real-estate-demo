@@ -1,14 +1,15 @@
 import React from 'react';
-import { NextPage } from 'next';
-import HouseList from '@components/house-list/house-list';
-import HouseData from '@mocks/houses-data.json';
+import Image from 'next/image';
 
-const Index: NextPage = () => {
+const index = () => {
   return (
-    <div>
-      <HouseList houseData={HouseData} />
+    <div className="home">
+      <div className="home__image">
+        <Image src="/assets/home-image.jpg" alt="Home Image" layout="fill" />
+      </div>
+      <div className="home__form"></div>
     </div>
   );
 };
 
-export default Index;
+export default index;

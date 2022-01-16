@@ -10,7 +10,8 @@
   ],
   "rules": {
     "@typescript-eslint/no-unused-vars": "error",
-    "import/no-extraneous-dependencies": "off"
+    "import/no-extraneous-dependencies": "off",
+    "@typescript-eslint/no-explicit-any": "error"
   },
   "env": { "browser": true, "es2021": true, "jest": true },
   "settings": {
