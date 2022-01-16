@@ -42,5 +42,8 @@
     "*.{ts,tsx}": [
       "yarn lint"
     ]
+  },
+  "engines": {
+    "node": "16.13.1"
   }
 }
