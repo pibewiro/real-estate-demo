@@ -25,7 +25,11 @@ const index = () => {
       <Loading visible={loading} />
       <div className="home">
         <div className="home__image">
-          <Image src="/assets/home-image.jpg" alt="Home Image" layout="fill" />
+          <Image
+            src={process.env.NEXT_PUBLIC_HOME_IMAGE as string}
+            alt="Home Image"
+            layout="fill"
+          />
         </div>
         <div className="home__form">
           <LoginForm

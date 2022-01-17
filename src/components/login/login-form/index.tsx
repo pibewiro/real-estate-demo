@@ -13,12 +13,11 @@ interface ILoginForm {
 
 const LoginForm: React.FC<ILoginForm> = props => {
   const { email, setEmail, password, setPassword, handleLogin } = props;
-
   return (
     <div className="login">
       <div className="login__logo">
         <Image
-          src="/assets/real-estate-logo.jpg"
+          src={process.env.NEXT_PUBLIC_LOGO as string}
           alt="login image"
           layout="fill"
         />
