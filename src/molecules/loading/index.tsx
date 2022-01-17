@@ -11,7 +11,7 @@ const Loading: React.FC<ILoading> = props => {
         <div className="loading">
           <div className="loading__inner">
             <Image
-              src="/assets/real-estate-logo.jpg"
+              src={process.env.NEXT_PUBLIC_LOGO as string}
               alt="Home Image"
               layout="fill"
             />

@@ -24,4 +24,5 @@ module.exports = {
       statements: 0,
     },
   },
+  setupFiles: ['<rootDir>/.jest/setEnvVars.js'],
 };
