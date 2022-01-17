@@ -2,7 +2,7 @@
   "name": "nextjs_setup",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "rm -rf .next && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint src/**/*.{ts,tsx} pages/**/*.tsx --ignore-path .eslintignore",
